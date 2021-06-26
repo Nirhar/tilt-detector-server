@@ -14,9 +14,11 @@ This gives the Roll and the Pitch of the MCU plane in a String format which can 
 ## Building the Code
     
 Prerequisites:
+
     ESP-IDF Build System
 
 To build the code and flash it to the MCU activate the ESP-IDF Build System and type
+
     idf.py -p <PORT> flash
 
 where <PORT> is the port where the MCU is connected, typically of the form /dev/ttyUSB[X]
